@@ -60,7 +60,7 @@ class DNNCTF:
 			hidden_units=self.config['layers'],
 			n_classes=len(self.config['classes']),
 			model_dir=self.config['path'],
-			optimizer=tf.train.GradientDescentOptimizer(
+			optimizer=tf.optimizers.SGD(
 				learning_rate=self.config['learning_rate']
 			))
 		try:

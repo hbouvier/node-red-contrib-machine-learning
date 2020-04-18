@@ -375,7 +375,7 @@ Example flows available here:
         "type": "mqtt-broker",
         "z": "",
         "name": "",
-        "broker": "iot.eclipse.org",
+        "broker": "mqtt.eclipse.org",
         "port": "1883",
         "clientid": "",
         "usetls": false,
